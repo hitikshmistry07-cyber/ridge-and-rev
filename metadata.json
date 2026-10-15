@@ -1,0 +1,6 @@
+{
+  "name": "Ridge & Rev – Motorcycle Travel Across India",
+  "description": "Comprehensive motorcycle expedition blog across India featuring Himalayan passes, coastal highways, Western Ghats, desert trails, route guides, and rider packing checklists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
