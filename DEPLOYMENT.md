@@ -45,7 +45,7 @@ You can deploy this website to Vercel in less than 2 minutes using either the **
    - **Root Directory**: `./`
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
-   - **Install Command**: `npm install`
+   - **Install Command**: `npm install --legacy-peer-deps` (automatically handled by `.npmrc` & `vercel.json`)
 4. Click **Deploy**. Vercel will build and deploy the app with global CDN distribution and SSL certificate automatically provisioned.
 
 #### Option B: Deploy via Vercel CLI

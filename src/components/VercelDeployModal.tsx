@@ -107,7 +107,7 @@ export const VercelDeployModal: React.FC<VercelDeployModalProps> = ({ isOpen, on
                   <ul className="list-disc list-inside ml-5 mt-1 text-xs text-zinc-400 space-y-0.5">
                     <li>Build Command: <code className="text-zinc-200 font-mono">npm run build</code></li>
                     <li>Output Directory: <code className="text-zinc-200 font-mono">dist</code></li>
-                    <li>Install Command: <code className="text-zinc-200 font-mono">npm install</code></li>
+                    <li>Install Command: <code className="text-zinc-200 font-mono">npm install --legacy-peer-deps</code> (auto-configured)</li>
                   </ul>
                 </li>
                 <li>Click <strong>&quot;Deploy&quot;</strong>. Within 45 seconds, your site is live with a free SSL domain!</li>
